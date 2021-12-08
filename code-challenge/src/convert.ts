@@ -1,3 +1,3 @@
-export const convert = (value: number): string => {
-    return 'I'
+export const convert = (input: string): number => {
+    return 1
 }
