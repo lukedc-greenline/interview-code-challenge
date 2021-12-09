@@ -17,34 +17,14 @@ describe('convert tests', () => {
         expect(check).to.equal(3)
     })
 
-    it('IV should return 4', () => {
-        const check = convert('IV')
-        expect(check).to.equal(4)
-    })
-
     it('V should return 5', () => {
         const check = convert('V')
         expect(check).to.equal(5)
-    })
-
-    it('VI should return 6', () => {
-        const check = convert('VI')
-        expect(check).to.equal(6)
-    })
-
-    it('IX should return 9', () => {
-        const check = convert('IX')
-        expect(check).to.equal(9)
-    })
+    })    
 
     it('X should return 10', () => {
         const check = convert('X')
         expect(check).to.equal(10)
-    })
-
-    it('XI should return 11', () => {
-        const check = convert('XI')
-        expect(check).to.equal(11)
     })
 
     it('XX should return 20', () => {
@@ -57,19 +37,9 @@ describe('convert tests', () => {
         expect(check).to.equal(50)
     })
 
-    it('LI should return 51', () => {
-        const check = convert('LI')
-        expect(check).to.equal(51)
-    })
-
     it('C should return 100', () => {
         const check = convert('C')
         expect(check).to.equal(100)
-    })
-
-    it('CI should return 101', () => {
-        const check = convert('CI')
-        expect(check).to.equal(101)
     })
 
     it('CC should return 200', () => {
@@ -80,6 +50,36 @@ describe('convert tests', () => {
     it('M should return 1000', () => {
         const check = convert('M')
         expect(check).to.equal(1000)
+    })
+
+    it('VI should return 6', () => {
+        const check = convert('VI')
+        expect(check).to.equal(6)
+    })
+
+    it('XI should return 11', () => {
+        const check = convert('XI')
+        expect(check).to.equal(11)
+    })
+
+    it('LI should return 51', () => {
+        const check = convert('LI')
+        expect(check).to.equal(51)
+    })
+
+    it('CI should return 101', () => {
+        const check = convert('CI')
+        expect(check).to.equal(101)
+    })
+
+    it('IV should return 4', () => {
+        const check = convert('IV')
+        expect(check).to.equal(4)
+    }) 
+
+    it('IX should return 9', () => {
+        const check = convert('IX')
+        expect(check).to.equal(9)
     })
 
     it('XVII should return 17', () => {
